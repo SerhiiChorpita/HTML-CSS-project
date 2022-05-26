@@ -1,0 +1,35 @@
+// text
+@mixin font ($sz, $w, $s){
+    font-size: $sz;
+    font-weight: $w;
+    font-style: $s;  
+}
+@mixin text-align($ta, $lh){
+    text-align: $ta;
+    line-height: $lh;
+}
+
+// border
+
+
+// size
+
+@mixin whb($w, $h, $bc){
+    width: $w;
+    height: $h;
+    background-color: $bc;              
+}
+// background
+
+@mixin background-image ($bi, $bs, $br, $bp){
+    background-image: $bi;
+    background-size: $bs;
+    background-repeat: $br;
+    background-position: $bp;  
+}
+@mixin background-image-2 ($bi, $bs, $br, $bp){
+    background-image: $bi;
+    background-size: $bs;
+    background-repeat: $br;
+    background-position: $bp;   
+}
